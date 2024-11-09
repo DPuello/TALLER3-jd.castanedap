@@ -13,7 +13,7 @@ class BoaConstrictor(AnimalExotico):
 
     def comer_raton(self) -> None:
         try:
-            if self.ratones_comidos >= 10:
+            if self.ratones_comidos >= 20:
                 raise ValueError("Demasiados Ratones!")
             self.ratones_comidos += 1
         except Exception as e:

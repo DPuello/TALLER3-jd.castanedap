@@ -35,12 +35,12 @@ Tests:
 
 Para ejecutar todas las pruebas:
 ```
-python -m unittest tests
+python -m unittest tests/test_boa.py
 ```
-También se puede ejecutar una prueba específica:
+``` 
+python -m unittest tests/test_huron.py
 ```
-python -m tests/test_boa.py
-python -m tests/test_huron.py
-python -m tests/test_guarderia.py
+```
+python -m unittest tests/test_guarderia.py 
 ```
 	

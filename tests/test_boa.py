@@ -18,7 +18,7 @@ class TestBoaConstrictor(unittest.TestCase):
     def test_boa_constrictor_comer_raton(self):
         boa = BoaConstrictor("Sneaky", 5, 3.6, "Colombia", 15.2)
         times = 0
-        while times < 10:
+        while times < 20:
             boa.comer_raton()
             times += 1
             self.assertEqual(boa.ratones_comidos, times)

@@ -6,7 +6,7 @@ class TestBoaConstrictor(unittest.TestCase):
     def test_guarderia_alimentar_boa(self):
         guarderia = Guarderia("Guarderia de Hurones", "Calle Falsa 123")
         times = 0
-        while times < 10:
+        while times < 20:
             self.assertEqual(guarderia.alimentar_boa(0), "Éxito")
             times += 1
         self.assertEqual(guarderia.alimentar_boa(0), str("La boa está llena"))
